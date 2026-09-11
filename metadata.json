@@ -1,0 +1,8 @@
+{
+  "name": "AuditFlow1",
+  "description": "\"AuditFlow เพื่อนคู่คิดของนักบัญชีและผู้ตรวจสอบภาษีมืออาชีพ\n\n* Smart Audit: ตรวจสอบงบและเอกสารทางบัญชีได้อย่างรวดเร็วด้วยระบบอัจฉริยะ\n* Tax Precision: คำนวณและเช็กความถูกต้องด้านภาษีอย่างไร้กังวล\n* Seamless Workflow: จัดการและส่งต่อข้อมูลในทีมได้อย่างลื่นไหล\n\nเปลี่ยนงานตรวจบัญชีที่ยุ่งยากให้เป็นเรื่องง่ายและเป็นระบบในแอปเดียว\"",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

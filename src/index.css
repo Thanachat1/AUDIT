@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  transition: background-color 0.25s ease, color 0.2s ease;
+}
+
+html.dark body {
+  background-color: #0b0f19;
+  color: #f1f5f9;
+}
+
+/* Tab button animations */
+.tab-pill {
+  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.tab-pill:hover {
+  transform: translateY(-2px);
+}
+.tab-pill:active {
+  transform: translateY(0) scale(0.97);
+}
+
+/* FinTech subtle pulse */
+@keyframes subtlePulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.04); }
+}
+.pulse-badge {
+  animation: subtlePulse 2.5s infinite ease-in-out;
+}
